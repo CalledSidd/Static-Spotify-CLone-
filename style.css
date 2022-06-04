@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}   
+header{
+ background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    }
+.logo img{
+    width: 150px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+.nav{
+    display: flex;
+
+}
+
+.nav-item{
+    color: white;
+    padding: 0 16px;
+    cursor: pointer;
+    font-weight:560;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.nav-item:hover{
+    color: green;
+}
+
+.div2{
+    width: 100%;
+    background-color: #ffcdd2;
+    height: 83vh;
+    position: absolute;
+
+}
+#button1{
+    background-color: #d83519;
+    color: white;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-family: sans-serif ;
+    border-radius: 255px;
+    text-transform: uppercase;
+    border: none;
+    position: absolute;
+    top: 54%;
+    left: 42%;
+}
+
+.tittle-tag{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-top: 200px;
+    color: #D83519;
+    text-align: center;
+    font-size: 80px;
+    line-height: 92px;
+    letter-spacing: 0.05px;
+    font-weight:750;
+}
+
+.div3{
+    background-color: #2941ab;
+    width: 100%;
+    height: 173vh;
+
+    
+}
+.div3 img{
+    height: 100vh;
+    float: right;
+    padding-top: 600px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+}
+p{
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;  
+}
+.titletag2{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    top:57%;
+    left: 14%;
+    padding-top: 200px;
+    color: #1ed760;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 360px;
+    margin-right: 20px;
+    letter-spacing: 0.05px;
+    font-weight:750;
+  
+}
+#button2{
+    background-color: #1ed760;
+    color: #2941ab;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 255px;
+    text-transform: uppercase;
+    border: none;
+    position: absolute;
+    top: 143%;
+    left: 14%;
+}
+#heading2{
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-top: 200px;
+    color: #39FF14;
+    text-align: center;
+    font-size: 65px;
+    line-height: 92px;
+    letter-spacing: 0.05px;
+    font: weight 80px;
+    top: 90%;
+    left: 14%;
+    position: absolute;
+}
+.footlogo{
+ width: 120px;
+ margin-bottom: 250px;
+}
+ /* color: #39FF14;   */
+.company{
+    padding-left: 170vw;
+    
+}
+.foot11{
+   font-family: SpotifyCircular, spotify-circular, Helvetica, Arial, sans-serif;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+.logodiv{
+    width: 20vw;
+    height: 100%;
+    
+}
+.footcompany{
+   
+    width: 20vw;
+    height: 100%;
+    
+}
+.footcom{
+  
+    width: 20vw;
+    height: 100%;
+}
+.footlinks{
+    width: 20vw;
+    height: 100%;
+    
+}
+.footsocials{
+    width: 20vw;
+    height: 100%;
+   
+}
+.logodiv img{
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.footcompany ul{
+    color: white;
+    font-weight: 600;
+    text-align: start;
+   font-size: 16px;
+  margin-top: 20px;
+}
+#C{
+    padding-top: 20px;
+    color: #919496;
+}
+#A{
+    padding-top: 40px;
+}
+#J{
+    padding-top: 40px;
+}
+#F{
+    padding-top: 40px;
+}
+.footcom ul{
+    color: white;
+    font-weight: 600;
+    text-align: start;
+    font-size: 16px;
+  margin-top: 20px;
+}
+#CO{
+    padding-top: 20px;
+    color: #919496;
+}
+#FA{
+    padding-top: 30px;
+}
+#D{
+    padding-top: 30px;
+}
+#AD{
+    padding-top: 30px;
+}
+#I{
+    padding-top: 30px;
+}
+#V{
+    padding-top: 30px;
+}
+.footlinks ul{
+    color: white;
+    font-weight: 600;
+    text-align: start;
+    font-size: 16px;
+  margin-top: 20px;
+}
+
+#US{
+    padding-top: 20px;
+    color: #919496;
+}
+#SU{
+    padding-top: 40px;
+}
+#WE{
+    padding-top: 40px;
+}
+#FR{
+    padding-top: 40px;
+}
+.icon {
+    color: white;
+    height: 219px;
+    width: 294px;
+    padding-top: 75px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    cursor: pointer;
+
+}
